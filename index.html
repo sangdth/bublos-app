@@ -57,7 +57,16 @@
     </div>
   </nav>
 
-
+  <div class="container">
+    <div class="row control">
+      <div class="col-xs-3"> test</div>
+      <div class="col-xs-3"> adf</div>
+      <div class="col-xs-3">sdf  </div>
+      <div class="col-xs-3">
+        <button type="button" class="btn btn-success btn-xs pull-right"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+      </div>
+    </div>
+  </div>
 
     <div id="main-tabs">
 
@@ -72,8 +81,8 @@
       <div class="tab-content">
         <div class="tab-pane active" id="cheatsheets">
           <input type="text" class="search-form form-control fuzzy-search" placeholder="Search cheatsheets">
-          <ul id="cheatsheets-list" class="list-group list pull-left">
-          </ul>
+          <div id="cheatsheets-list" class="list-group list pull-left">
+          </div>
         </div>
 
         <div class="tab-pane" id="snippets">
@@ -112,6 +121,7 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/list.min.js"></script>
     <script src="js/vendor/list.fuzzysearch.min.js"></script>
+    <script src="js/vendor/clipboard.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

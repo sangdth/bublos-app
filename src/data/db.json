@@ -1,68 +1,78 @@
 {
   "cheatsheets":[
     {
+      "id": 1,
       "desc": "Files changed in working",
       "code": "git status"
     },
     {
+      "id": 2,
       "desc": "History of changes",
       "code": "git log"
     },
     {
+      "id": 3,
       "desc": "Switch to a branch",
       "code": "git checkout <BRANCH>"
     },
     {
+      "id": 4,
       "desc": "Revert the last commit",
       "code": "git revert HEAD"
     },
     {
+      "id": 5,
       "desc": "Files changed in working",
       "code": "git status"
     },
     {
+      "id": 6,
       "desc": "History of changes",
       "code": "git log"
     },
     {
+      "id": 7,
       "desc": "Switch to a branch",
       "code": "git checkout <BRANCH>"
     },
     {
+      "id": 8,
       "desc": "Revert the last commit",
       "code": "git revert HEAD"
     },
     {
+      "id": 9,
       "desc": "Fix the last commit",
       "code": "git commit -a --amend"
     }
   ],
   "snippets": [
     {
+      "id": 10,
       "desc": "Control electron under nodemon.",
       "code": "\"start\": \"nodemon --exec 'electron main.js'\""
     }
   ],
   "passwords": [
     {
-      "service": "Google",
-      "email": "sangdth@gmail.com",
-      "password": "adsfqw9e0r8q09w09a8sfd"
+      "id": 11,
+      "desc": "Google: sangdth@gmail.com",
+      "code": "adsfqw9e0r8q09w09a8sfd"
     },
     {
-      "service": "Apple",
-      "email": "sangdth@me.com",
-      "password": "adsfqw9e0r8q09w09a8sfd"
+      "id": 12,
+      "desc": "Apple: sangdth@me.com",
+      "code": "adsfqw9e0r8q09w09a8sfd"
     },
     {
-      "service": "Paypal",
-      "email": "sangdth@gmail.com",
-      "password": "adsfqw9e0r8q09w09a8sfd"
+      "id": 13,
+      "desc": "Paypal: sangdth@gmail.com",
+      "code": "adsfqw9e0r8q09w09a8sfd"
     },
     {
-      "service": "Facebook",
-      "email": "sangdth@me.com",
-      "password": "adsfqw9e0r8q09w09a8sfd"
+      "id": 14,
+      "desc": "Facebook: sangdth@me.com",
+      "code": "adsfqw9e0r8q09w09a8sfd"
     }
   ]
 }
