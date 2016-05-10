@@ -57,20 +57,10 @@
     </div>
   </nav>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-11 col-md-offset-1">
-          <form id="search-form">
-            <div class="form-group">
-              <label class="sr-only" for="search">Search</label>
-              <input type="text" class="form-control search" id="search-input" placeholder="Search">
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
+
 
     <div id="main-tabs">
+
 
       <ul class="nav nav-tabs">
         <li class="active"><a href="#cheatsheets" data-toggle="tab"><span class="glyphicon glyphicon-flash"></span> <span class="text">Cheatsheet</span></a></li>
@@ -81,16 +71,19 @@
 
       <div class="tab-content">
         <div class="tab-pane active" id="cheatsheets">
-          <ul id="cheatsheets-list" class="list-group pull-left">
+          <input type="text" class="search-form form-control fuzzy-search" placeholder="Search cheatsheets">
+          <ul id="cheatsheets-list" class="list-group list pull-left">
           </ul>
         </div>
 
         <div class="tab-pane" id="snippets">
-          <ul id="snippets-list" class="list-group pull-left">
+          <input type="text" class="search-form form-control fuzzy-search" placeholder="Search snippets">
+          <ul id="snippets-list" class="list-group list pull-left">
           </ul>
         </div>
         <div class="tab-pane" id="passwords">
-          <ul id="passwords-list" class="list-group pull-left">
+          <input type="text" class="search-form form-control fuzzy-search" placeholder="Search passwords">
+          <ul id="passwords-list" class="list-group list pull-left">
           </ul>
         </div>
         <div class="tab-pane" id="config">
@@ -118,6 +111,7 @@
     <script>window.$ = window.jQuery = require('./js/vendor/jquery-2.2.3.min.js');</script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/list.min.js"></script>
+    <script src="js/vendor/list.fuzzysearch.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

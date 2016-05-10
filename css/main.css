@@ -1,8 +1,8 @@
 body {
   background-color: #eee;
 }
-#search-form {
-  margin-top: 15px;
+.search-form {
+  margin-bottom: 15px;
 }
 #main-tabs { margin-top: 0px; }
 .nav-tabs {
@@ -39,7 +39,7 @@ body {
   border-radius: 0;
 }
 .nav-tabs span.text {
-  display: none; 
+  display: none;
 }
 .tab-content .tab-pane {
   display: none;

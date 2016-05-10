@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  $('[data-toggle="tooltip"]').tooltip();
   $.getJSON('src/data/db.json', function (data) {
 
     var showCheatSheets = $('#cheatsheets-list');
@@ -9,8 +8,8 @@ $(document).ready(function () {
     var cheatsheetsItems = data.cheatsheets.map(function (item) {
       return `
       <li class="list-group-item">
-        <h4 class="list-group-item-heading">${item.desc}<span class="badge pull-right"></span></h4>
-        <p class="list-group-item-text">${item.code}</p>
+        <h4 class="list-group-item-heading desc">${item.desc}<span class="badge pull-right"></span></h4>
+        <p class="list-group-item-text code">${item.code}</p>
       </li>
       `;
     });
@@ -18,8 +17,8 @@ $(document).ready(function () {
     var snippetsItems = data.snippets.map(function (item) {
       return `
       <li class="list-group-item">
-        <h4 class="list-group-item-heading">${item.desc}<span class="badge pull-right"></span></h4>
-        <p class="list-group-item-text">${item.code}</p>
+        <h4 class="list-group-item-heading desc">${item.desc}<span class="badge pull-right"></span></h4>
+        <p class="list-group-item-text code">${item.code}</p>
       </li>
       `;
     });
@@ -27,7 +26,7 @@ $(document).ready(function () {
     var passwordsItems = data.passwords.map(function (item) {
       return `
       <li class="list-group-item">
-        <h4 class="list-group-item-heading">${item.service}: ${item.email}<span class="badge pull-right"></span></h4>
+        <h4 class="list-group-item-heading desc">${item.service}: ${item.email}<span class="badge pull-right"></span></h4>
         <p class="list-group-item-text">${item.password}</p>
       </li>
       `;
@@ -47,5 +46,23 @@ $(document).ready(function () {
       let content = passwordsItems.join(" ");
       showPasswords.append(content);
     }
+
+    var cheatsheetsList = new List('cheatsheets', {
+    valueNames: ['code', 'desc'],
+      plugins: [ ListFuzzySearch() ]
+    });
+
+    var snippetsList = new List('snippets', {
+    valueNames: ['code', 'desc'],
+      plugins: [ ListFuzzySearch() ]
+    });
+
+    var passwordsList = new List('passwords', {
+    valueNames: ['desc'],
+      plugins: [ ListFuzzySearch() ]
+    });
+    
   });
+
+
 });
