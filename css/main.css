@@ -16,10 +16,12 @@ body {
 .nav-tabs li a {
   margin-right: 0;
   border: 0;
+  color: #999;
   background-color: #eee;
 }
 .nav-tabs li a:hover {
-  background-color: #444;
+  color: #fff;
+  background-color: #333;
 }
 .nav-tabs .glyphicon {
   color: #999;
@@ -36,7 +38,9 @@ body {
   border: 0;
   border-radius: 0;
 }
-
+.nav-tabs span.text {
+  display: none; 
+}
 .tab-content .tab-pane {
   display: none;
   background-color: #fff;
@@ -54,15 +58,18 @@ body {
 }
 .list-group .list-group-item h4,
 .list-group .list-group-item p {
-  line-height: 11px;
+  line-height: 12px;
 }
 .list-group-item-heading {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
 }
 .list-group-item-text {
-    font-size: 14px;
+    font-size: 12px;
     font-family: monospace;
+}
+#config p{
+  font-size: 12px;
 }
 
 ::-webkit-scrollbar {
@@ -78,5 +85,6 @@ body {
     border-radius: 0;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);
 }
+
 
 footer {text-align: center;}

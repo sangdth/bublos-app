@@ -1,18 +1,51 @@
+$(document).ready(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+  $.getJSON('src/data/db.json', function (data) {
 
-/* var tabsFn = (function() {
+    var showCheatSheets = $('#cheatsheets-list');
+    var showSnippets = $('#snippets-list');
+    var showPasswords = $('#passwords-list');
 
-  function init() {
-    setHeight();
-  }
-
-  function setHeight() {
-    var $tabPane = $('.tab-pane'),
-        tabsHeight = $('.nav-tabs').height();
-
-    $tabPane.css({
-      height: tabsHeight
+    var cheatsheetsItems = data.cheatsheets.map(function (item) {
+      return `
+      <li class="list-group-item">
+        <h4 class="list-group-item-heading">${item.desc}<span class="badge pull-right"></span></h4>
+        <p class="list-group-item-text">${item.code}</p>
+      </li>
+      `;
     });
-  }
 
-  $(init);
-})(); */
+    var snippetsItems = data.snippets.map(function (item) {
+      return `
+      <li class="list-group-item">
+        <h4 class="list-group-item-heading">${item.desc}<span class="badge pull-right"></span></h4>
+        <p class="list-group-item-text">${item.code}</p>
+      </li>
+      `;
+    });
+
+    var passwordsItems = data.passwords.map(function (item) {
+      return `
+      <li class="list-group-item">
+        <h4 class="list-group-item-heading">${item.service}: ${item.email}<span class="badge pull-right"></span></h4>
+        <p class="list-group-item-text">${item.password}</p>
+      </li>
+      `;
+    });
+
+    if (cheatsheetsItems.length) {
+      let content = cheatsheetsItems.join(" ");
+      showCheatSheets.append(content);
+    }
+
+    if (snippetsItems.length) {
+      let content = snippetsItems.join(" ");
+      showSnippets.append(content);
+    }
+
+    if (passwordsItems.length) {
+      let content = passwordsItems.join(" ");
+      showPasswords.append(content);
+    }
+  });
+});

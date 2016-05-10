@@ -17,6 +17,22 @@
       "code": "git revert HEAD"
     },
     {
+      "desc": "Files changed in working",
+      "code": "git status"
+    },
+    {
+      "desc": "History of changes",
+      "code": "git log"
+    },
+    {
+      "desc": "Switch to a branch",
+      "code": "git checkout <BRANCH>"
+    },
+    {
+      "desc": "Revert the last commit",
+      "code": "git revert HEAD"
+    },
+    {
       "desc": "Fix the last commit",
       "code": "git commit -a --amend"
     }
@@ -27,11 +43,26 @@
       "code": "\"start\": \"nodemon --exec 'electron main.js'\""
     }
   ],
-  "password": [
+  "passwords": [
     {
       "service": "Google",
       "email": "sangdth@gmail.com",
-      "password": "whatdahell"
+      "password": "adsfqw9e0r8q09w09a8sfd"
+    },
+    {
+      "service": "Apple",
+      "email": "sangdth@me.com",
+      "password": "adsfqw9e0r8q09w09a8sfd"
+    },
+    {
+      "service": "Paypal",
+      "email": "sangdth@gmail.com",
+      "password": "adsfqw9e0r8q09w09a8sfd"
+    },
+    {
+      "service": "Facebook",
+      "email": "sangdth@me.com",
+      "password": "adsfqw9e0r8q09w09a8sfd"
     }
   ]
 }

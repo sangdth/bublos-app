@@ -1,61 +1,61 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/main.css">
 
-    </head>
-    <body>
+  </head>
+  <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Bublos</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-         <ul class="nav navbar-nav">
-           <li class="active"><a href="#">Home</a></li>
-           <li><a href="#about">About</a></li>
-           <li><a href="#contact">Contact</a></li>
-           <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-             <ul class="dropdown-menu">
-               <li><a href="#">Action</a></li>
-               <li><a href="#">Another action</a></li>
-               <li><a href="#">Something else here</a></li>
-               <li role="separator" class="divider"></li>
-               <li class="dropdown-header">Nav header</li>
-               <li><a href="#">Separated link</a></li>
-               <li><a href="#">One more separated link</a></li>
-             </ul>
-           </li>
-         </ul>
-         <ul class="nav navbar-nav navbar-right">
-           <li><a href="../navbar/">Default</a></li>
-           <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
-           <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-         </ul>
-       </div><!--/.nav-collapse -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Bublos</a>
       </div>
-    </nav>
+      <div id="navbar" class="navbar-collapse collapse">
+       <ul class="nav navbar-nav">
+         <li class="active"><a href="#">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="#contact">Contact</a></li>
+         <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+           <ul class="dropdown-menu">
+             <li><a href="#">Action</a></li>
+             <li><a href="#">Another action</a></li>
+             <li><a href="#">Something else here</a></li>
+             <li role="separator" class="divider"></li>
+             <li class="dropdown-header">Nav header</li>
+             <li><a href="#">Separated link</a></li>
+             <li><a href="#">One more separated link</a></li>
+           </ul>
+         </li>
+       </ul>
+       <ul class="nav navbar-nav navbar-right">
+         <li><a href="../navbar/">Default</a></li>
+         <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
+         <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+       </ul>
+     </div><!--/.nav-collapse -->
+    </div>
+  </nav>
 
     <div class="container">
       <div class="row">
@@ -63,7 +63,7 @@
           <form id="search-form">
             <div class="form-group">
               <label class="sr-only" for="search">Search</label>
-              <input type="text" class="form-control" id="search-input" placeholder="Search">
+              <input type="text" class="form-control search" id="search-input" placeholder="Search">
             </div>
           </form>
         </div>
@@ -73,67 +73,33 @@
     <div id="main-tabs">
 
       <ul class="nav nav-tabs">
-        <li class="active"><a href="#cheatsheets" data-toggle="tab"><span class="glyphicon glyphicon-flash"></span></a></li>
-        <li><a href="#snippets" data-toggle="tab"><span class="glyphicon glyphicon-list-alt"></span></a></li>
-        <li><a href="#passwords" data-toggle="tab"><span class="glyphicon glyphicon-eye-open"></span></a></li>
-        <li><a href="#config" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span></a></li>
+        <li class="active"><a href="#cheatsheets" data-toggle="tab"><span class="glyphicon glyphicon-flash"></span> <span class="text">Cheatsheet</span></a></li>
+        <li><a href="#snippets" data-toggle="tab"><span class="glyphicon glyphicon-list-alt"></span> <span class="text">Snippets</span></a></li>
+        <li><a href="#passwords" data-toggle="tab"><span class="glyphicon glyphicon-eye-open"></span> <span class="text">Passwords</span></a></li>
+        <li><a href="#config" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span> <span class="text">Config</span></a></li>
       </ul>
 
       <div class="tab-content">
         <div class="tab-pane active" id="cheatsheets">
-          <ul class="list-group pull-left">
-            <li class="list-group-item">
-              <h4 class="list-group-item-heading">Files changed in working<span class="badge pull-right">101</span></h4>
-              <p class="list-group-item-text">git status</p>
-            </li>
-            <li class="list-group-item">
-              <h4 class="list-group-item-heading">History of changes<span class="badge pull-right">87</span></h4>
-              <p class="list-group-item-text">git log</p>
-            </li>
-            <li class="list-group-item">
-              <h4 class="list-group-item-heading">Switch to a branch<span class="badge pull-right">12</span></h4>
-              <p class="list-group-item-text">git checkout &lt;BRANCH&gt;</p>
-            </li>
-            <li class="list-group-item">
-              <h4 class="list-group-item-heading">Revert the last commit<span class="badge pull-right">83</span></h4>
-              <p class="list-group-item-text">git revert HEAD</p>
-            </li>
-            <li class="list-group-item">
-              <h4 class="list-group-item-heading">Fix the last commit<span class="badge pull-right">64</span></h4>
-              <p class="list-group-item-text">git commit -a --amend</p>
-            </li>
+          <ul id="cheatsheets-list" class="list-group pull-left">
           </ul>
         </div>
 
         <div class="tab-pane" id="snippets">
-          <ul class="list-group pull-left">
-            <li class="list-group-item">
-              <h4>Crystals &nbsp; &nbsp;<span class="badge pull-right">100%</span></h4>
-            </li>
-            <li class="list-group-item">
-              <h4>Healing &nbsp; &nbsp;<span class="badge pull-right">90%</span></h4>
-            </li>
-            <li class="list-group-item">
-              <h4>Exploring &nbsp; &nbsp;<span class="badge pull-right">78%</span></h4>
-            </li>
-            <li class="list-group-item">
-              <h4>QiGong &nbsp; &nbsp;<span class="badge pull-right">83%</span></h4>
-            </li>
-            <li class="list-group-item">
-              <h4>Myself &nbsp; &nbsp;<span class="badge pull-right">100%</span>
-              </h4></li>
+          <ul id="snippets-list" class="list-group pull-left">
           </ul>
         </div>
-        <div class="tab-pane" id="passwords">CCCCThirdamuno, ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae.</div>
+        <div class="tab-pane" id="passwords">
+          <ul id="passwords-list" class="list-group pull-left">
+          </ul>
+        </div>
         <div class="tab-pane" id="config">
-          <!-- Main jumbotron for a primary marketing message or call to action -->
-          <div class="jumbotron">
-            <div class="container">
-              <h1>Hello, world!</h1>
-              <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-              <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-            </div>
+          <div class="container">
+            <h3>Configuration</h1>
+            <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            <p><a class="btn btn-default btn-sm" href="#" role="button">Learn more &raquo;</a></p>
           </div>
+
         </div>
       </div><!-- /tab-content -->
     </div><!-- /tabbable -->
@@ -151,6 +117,7 @@
 
     <script>window.$ = window.jQuery = require('./js/vendor/jquery-2.2.3.min.js');</script>
     <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/list.min.js"></script>
     <script src="js/main.js"></script>
-    </body>
+  </body>
 </html>
