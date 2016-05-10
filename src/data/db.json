@@ -1,0 +1,37 @@
+{
+  "cheatsheets":[
+    {
+      "desc": "Files changed in working",
+      "code": "git status"
+    },
+    {
+      "desc": "History of changes",
+      "code": "git log"
+    },
+    {
+      "desc": "Switch to a branch",
+      "code": "git checkout <BRANCH>"
+    },
+    {
+      "desc": "Revert the last commit",
+      "code": "git revert HEAD"
+    },
+    {
+      "desc": "Fix the last commit",
+      "code": "git commit -a --amend"
+    }
+  ],
+  "snippets": [
+    {
+      "desc": "Control electron under nodemon.",
+      "code": "\"start\": \"nodemon --exec 'electron main.js'\""
+    }
+  ],
+  "password": [
+    {
+      "service": "Google",
+      "email": "sangdth@gmail.com",
+      "password": "whatdahell"
+    }
+  ]
+}
