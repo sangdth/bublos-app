@@ -1,14 +1,14 @@
 {
-  "name": "electron-quick-start",
+  "name": "bublos-app",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "An easy way to control snippets, passwords, cheatsheets.",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "nodemon --exec 'electron main.js'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+https://github.com/sangdth/bublos-app.git"
   },
   "keywords": [
     "Electron",
@@ -19,9 +19,9 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/sangdth/bublos-app/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://github.com/sangdth/bublos-app#readme",
   "devDependencies": {
     "electron-prebuilt": "^0.37.8"
   }
