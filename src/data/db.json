@@ -1,76 +1,126 @@
 {
   "cheatsheets":[
     {
-      "id": 1,
+      "id": "a1",
       "desc": "Files changed in working",
       "code": "git status"
     },
     {
-      "id": 2,
+      "id": "a2",
       "desc": "History of changes",
       "code": "git log"
     },
     {
-      "id": 3,
+      "id": "a3",
       "desc": "Switch to a branch",
       "code": "git checkout <BRANCH>"
     },
     {
-      "id": 4,
+      "id": "a4",
       "desc": "Revert the last commit",
       "code": "git revert HEAD"
     },
     {
-      "id": 5,
+      "id": "a5",
       "desc": "Files changed in working",
       "code": "git status"
     },
     {
-      "id": 6,
+      "id": "a6",
       "desc": "History of changes",
       "code": "git log"
     },
     {
-      "id": 7,
+      "id": "a7",
       "desc": "Switch to a branch",
       "code": "git checkout <BRANCH>"
     },
     {
-      "id": 8,
+      "id": "a8",
       "desc": "Revert the last commit",
       "code": "git revert HEAD"
     },
     {
-      "id": 9,
+      "id": "a9",
+      "desc": "Fix the last commit",
+      "code": "git commit -a --amend"
+    },
+    {
+      "id": "a10",
+      "desc": "Files changed in working",
+      "code": "git status"
+    },
+    {
+      "id": "a11",
+      "desc": "Files changed in working",
+      "code": "git status"
+    },
+    {
+      "id": "a12",
+      "desc": "History of changes",
+      "code": "git log"
+    },
+    {
+      "id": "a13",
+      "desc": "Switch to a branch",
+      "code": "git checkout <BRANCH>"
+    },
+    {
+      "id": "a14",
+      "desc": "Revert the last commit",
+      "code": "git revert HEAD"
+    },
+    {
+      "id": "a15",
+      "desc": "Files changed in working",
+      "code": "git status"
+    },
+    {
+      "id": "a16",
+      "desc": "History of changes",
+      "code": "git log"
+    },
+    {
+      "id": "a17",
+      "desc": "Switch to a branch",
+      "code": "git checkout <BRANCH>"
+    },
+    {
+      "id": "a18",
+      "desc": "Revert the last commit",
+      "code": "git revert HEAD"
+    },
+    {
+      "id": "a19",
       "desc": "Fix the last commit",
       "code": "git commit -a --amend"
     }
   ],
   "snippets": [
     {
-      "id": 10,
+      "id": "b2",
       "desc": "Control electron under nodemon.",
       "code": "\"start\": \"nodemon --exec 'electron main.js'\""
     }
   ],
   "passwords": [
     {
-      "id": 11,
+      "id": "c1",
       "desc": "Google: sangdth@gmail.com",
       "code": "adsfqw9e0r8q09w09a8sfd"
     },
     {
-      "id": 12,
+      "id": "c2",
       "desc": "Apple: sangdth@me.com",
       "code": "adsfqw9e0r8q09w09a8sfd"
     },
     {
-      "id": 13,
+      "id": "c3",
       "desc": "Paypal: sangdth@gmail.com",
       "code": "adsfqw9e0r8q09w09a8sfd"
     },
     {
-      "id": 14,
+      "id": "c4",
       "desc": "Facebook: sangdth@me.com",
       "code": "adsfqw9e0r8q09w09a8sfd"
     }

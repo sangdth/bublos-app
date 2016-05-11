@@ -59,23 +59,22 @@
 
   <div class="container">
     <div class="row control">
-      <div class="col-xs-3"> test</div>
-      <div class="col-xs-3"> adf</div>
-      <div class="col-xs-3">sdf  </div>
+      <div class="col-xs-3">Option 1</div>
+      <div class="col-xs-3">Option 2</div>
+      <div class="col-xs-3">Option 3  </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-success btn-xs pull-right"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+        <button id="add-button" type="button" class="btn btn-default btn-xs pull-right"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
       </div>
     </div>
   </div>
 
     <div id="main-tabs">
 
-
       <ul class="nav nav-tabs">
         <li class="active"><a href="#cheatsheets" data-toggle="tab"><span class="glyphicon glyphicon-flash"></span> <span class="text">Cheatsheet</span></a></li>
         <li><a href="#snippets" data-toggle="tab"><span class="glyphicon glyphicon-list-alt"></span> <span class="text">Snippets</span></a></li>
         <li><a href="#passwords" data-toggle="tab"><span class="glyphicon glyphicon-eye-open"></span> <span class="text">Passwords</span></a></li>
-        <li><a href="#config" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span> <span class="text">Config</span></a></li>
+        <li><a href="#config" data-toggle="tab"><span class="glyphicon glyphicon-plus"></span> <span class="text">Add Tab</span></a></li>
       </ul>
 
       <div class="tab-content">
@@ -87,18 +86,18 @@
 
         <div class="tab-pane" id="snippets">
           <input type="text" class="search-form form-control fuzzy-search" placeholder="Search snippets">
-          <ul id="snippets-list" class="list-group list pull-left">
-          </ul>
+          <div id="snippets-list" class="list-group list pull-left">
+          </div>
         </div>
         <div class="tab-pane" id="passwords">
           <input type="text" class="search-form form-control fuzzy-search" placeholder="Search passwords">
-          <ul id="passwords-list" class="list-group list pull-left">
-          </ul>
+          <div id="passwords-list" class="list-group list pull-left">
+          </div>
         </div>
         <div class="tab-pane" id="config">
           <div class="container">
-            <h3>Configuration</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            <h3>Add new tab</h1>
+            <p>In the future we will add more new tab and config its setting here.</p>
             <p><a class="btn btn-default btn-sm" href="#" role="button">Learn more &raquo;</a></p>
           </div>
 
@@ -106,12 +105,8 @@
       </div><!-- /tab-content -->
     </div><!-- /tabbable -->
 
-
-
     <div class="container">
-
       <hr>
-
       <footer>
         <p>&copy; Bublos 2016</p>
       </footer>

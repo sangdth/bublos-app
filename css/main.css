@@ -1,5 +1,6 @@
 body {
   background-color: #eee;
+  font-size: 12px;
 }
 .control {
   margin-top: 15px;
@@ -8,7 +9,15 @@ body {
 .search-form {
   margin-bottom: 15px;
 }
-#main-tabs { margin-top: 0px; }
+#main-tabs {
+  margin-top: 0px;
+  height: 605px;
+  position: relative;
+}
+.tab-content {
+  max-height: 100%;
+  overflow: auto;
+}
 .nav-tabs {
   float: left;
   border-bottom: 0;
