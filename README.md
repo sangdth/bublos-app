@@ -1,6 +1,28 @@
 # Bublos App
 
+![Bublos screenshots](http://i.imgur.com/V6mqfkQ.png)
+
 **Control your snippets, passwords, cheatsheets easy way.**
+I make this app for 2 purposes: Keep tracking my cheatsheets, snippets, and passwords,and keep learning Nodejs.
+I put it up to github so people like me can learn with me.
+
+## Help Me
+
+If you want to help me improve this app, feel free to fire a pull request, I appreciate so much. Currently I'm trying to read/write with local storage, in order to save my datas.
+
+To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+git clone https://github.com/sangdth/bublos-app.git
+# Go into the repository
+cd bublos-app
+# Install dependencies and run the app
+npm install && npm start
+```
+Contact me for more information:
+Twitter: @sangdth - Facebook: fb/sangdth
+Email: sangdth (at) gmail dot com
 
 This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start) within the Electron documentation.
 
@@ -11,19 +33,6 @@ A basic Electron application needs just these files:
 - `index.html` - A web page to render. This is the app's **renderer process**.
 
 You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/latest/tutorial/quick-start).
-
-## To Use
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies and run the app
-npm install && npm start
-```
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
 
