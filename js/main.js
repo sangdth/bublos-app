@@ -17,6 +17,7 @@ $(document).ready(function () {
             <p id="item-${item.id}" class="list-group-item-text"><span class="code">${item.code}</span></p>
           </a>`;
       }).join(" ");
+      
       showCheatSheets.append(content);
 
       $('a').on('click', function() {
@@ -48,6 +49,7 @@ $(document).ready(function () {
             <p id="item-${item.id}" class="list-group-item-text"><span class="code">${item.code}</span></p>
           </a>`;
       }).join(" ");
+
       showSnippets.append(content);
 
       $('a').on('click', function() {
@@ -74,7 +76,9 @@ $(document).ready(function () {
             <p id="item-${item.id}" class="list-group-item-text"><span class="code">${item.code}</span></p>
           </a>`;
       }).join(" ");
+
       showPasswords.append(content);
+
       $('a').on('click', function() {
         var myCode = $(this).find('span.code').addClass('bg-success');
         setTimeout(function(){
@@ -138,8 +142,5 @@ $(document).ready(function () {
       });
     }
   });
-
-
-
 
 });

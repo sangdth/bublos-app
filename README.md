@@ -3,12 +3,12 @@
 ![Bublos screenshots](http://i.imgur.com/V6mqfkQ.png)
 
 **Control your snippets, passwords, cheatsheets easy way.**
-I make this app for 2 purposes: Keep tracking my cheatsheets, snippets, and passwords,and keep learning Nodejs.
-I put it up to github so people like me can learn with me.
+I make this app for 2 purposes: Keep tracking my cheatsheets, snippets, passwords etc, and learning Nodejs.
+I put it on to github so people like me can learn with me.
 
 ## Help Me
 
-If you want to help me improve this app, feel free to fire a pull request, I appreciate so much. Currently I'm trying to read/write with local storage, in order to save my datas.
+If you want to help me to improve this app, feel free to fire a pull request, I appreciate so much. Currently I'm trying to read/write with local storage, in order to save data.
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
