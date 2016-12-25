@@ -1,7 +1,7 @@
 {
   "name": "bublos-app",
   "version": "1.0.0",
-  "description": "An easy way to control snippets, passwords, cheatsheets.",
+  "description": "An easy way to control snippets, passwords, cheatsheets and more.",
   "main": "main.js",
   "scripts": {
     "start": "nodemon --exec 'electron main.js'"
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/sangdth/bublos-app#readme",
   "devDependencies": {
-    "electron-prebuilt": "^0.37.8"
+    "electron": "^1.4.13"
   }
 }
