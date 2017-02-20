@@ -5,6 +5,7 @@
 **Control your snippets, passwords, cheatsheets easy way.**
 I make this app for 2 purposes: Keep tracking my cheatsheets, snippets, passwords etc, and learning Nodejs.
 I put it on to github so people like me can learn with me.
+I'm still working on this.
 
 ## Help Me
 
