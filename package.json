@@ -1,28 +1,31 @@
 {
-  "name": "bublos-app",
-  "version": "1.0.0",
-  "description": "An easy way to control snippets, passwords, cheatsheets and more.",
-  "main": "main.js",
-  "scripts": {
-    "start": "nodemon --exec 'electron main.js'"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:sangdth/bublos-app.git"
-  },
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/sangdth/bublos-app/issues"
-  },
-  "homepage": "https://github.com/sangdth/bublos-app#readme",
-  "devDependencies": {
-    "electron": "^1.4.13"
-  }
+    "name": "bublos-app",
+    "version": "1.0.0",
+    "description": "An easy way to control snippets, passwords, cheatsheets and more.",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:sangdth/bublos-app.git"
+    },
+    "keywords": [
+        "Electron",
+        "quick",
+        "start",
+        "tutorial"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "bugs": {
+        "url": "https://github.com/sangdth/bublos-app/issues"
+    },
+    "homepage": "https://github.com/sangdth/bublos-app#readme",
+    "devDependencies": {
+        "electron": "~1.6.2"
+    },
+    "dependencies": {
+        "nconf": "^0.8.4"
+    }
 }
