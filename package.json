@@ -26,6 +26,7 @@
     "electron": "^1.8.0"
   },
   "dependencies": {
+    "jquery": "^3.2.1",
     "vue": "^2.4.2"
   }
 }
